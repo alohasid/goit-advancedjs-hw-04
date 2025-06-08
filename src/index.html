@@ -16,6 +16,16 @@
       <load src="./partials/badges.html" />
     </main>
 
+    <form id="search-form" class="form">
+      <input type="text" name="searchQuery" placeholder="Search images..." />
+      <button type="submit">Search</button>
+    </form>
+
+    <ul class="gallery"></ul>
+
+    <span class="loader" style="display: none;">Loading...</span>
+    <button class="load-more" style="display: none;">Load more</button>
+
     <load src="./partials/footer.html" />
 
     <script type="module" src="./main.js"></script>
